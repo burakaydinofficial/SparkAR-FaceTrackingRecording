@@ -50,7 +50,7 @@ You should copy this **full** array for the **Play** script.
 
 #### 3. Open the play project
 * Open the project and replace the dummy Texture Secuence *00[1-34]* with yours (Delete it and import from computer all your JPGs. When imported, change the type at the right menu to "Texture Secuence". Add this new texture sequence to *animationSequence0*). **Remember to disable compression!**
-* Change the **n frames** and **fps** value patches with your desired values.
+* Change the **frameRate** and **numFrames** Script constants with your desired values.
 * Finally, you should replace the dummy recording from **scripts/script.js** in this project with yours. It must be placed in the value of **const recording**.
 ```javascript
 //Insert your recording here!
